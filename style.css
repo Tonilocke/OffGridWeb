@@ -1,0 +1,78 @@
+:root{
+    --primary-color:rgb(215,244,227);
+    --primary-dark:rgb(28,36,31);
+    --prime-blue:rgb(170,170,255);
+    --prime-red:rgb(131,40,18);
+    --prime-grey:rgb(230,230,230);
+    --mygreen:rgb(175,233,221);
+}
+
+
+body{
+    background-color:var(--primary-dark);
+}
+.title{
+    color: var(--primary-color);
+}
+.subtitle{
+    color:var(--prime-red);
+    font-family:'VT323', monospace;
+}
+.navbar{
+    background-color: var(--prime-red);
+    
+}
+.navbar-item{
+    color:var(--prime-grey);
+    transition:all 0.5s ease-in-out;
+}
+
+.footer{
+    color:var(--prime-grey);
+    background-color: var(--prime-blue);
+}
+
+.dark{
+    color:var(--primary-dark);
+}
+.light{
+    color:var(--primary-color);
+}
+.red{
+    color:var(--prime-red);
+    
+}
+.grey{
+    color:var(--prime-grey);
+}
+.myBtn{
+    background-color: var(--primary-color);
+    color: var(--primary-dark);
+    border:0.2rem solid var(--prime-red);
+    transition:all 0.5s ease-in-out;
+}
+.myBtn:hover{
+    background-color: var(--primary-dark);
+    color:var(--prime-red);
+}
+.navbar-item:hover{
+    background-color: var(--primary-dark);
+    color:var(--prime-red);
+}
+.fonted{
+    font-family: 'VT323', monospace;
+}
+
+.clicked{
+    background-color: var(--primary-dark);
+    color:var(--prime-red);
+}
+.centered{
+    margin:0 auto;
+}
+@media (max-width:768px){
+    .navbar-item{
+        color:var(--primary-dark);
+    }
+
+}

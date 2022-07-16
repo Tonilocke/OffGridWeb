@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=PT+Sans:wght@400;700&family=Roboto+Mono:wght@200;400;700&family=VT323&display=swap" rel="stylesheet"> 
+    <title>OffGrid Games</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" >
+            <div class="navbar-brand">
+                <a class="navbar-item " href="#home">
+                        <img src="img/OffGridLogo.svg" alt="OffGrid logo" class="is-64x64">
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expandable="false" data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#home">Home</a>
+                    <a class="navbar-item" href="#games">Games</a>
+                    <a class="navbar-item" href="#about">About</a>
+                    <a class="navbar-item" href="contact.php">Contact Us</a>
+                </div>
+            </div>
+    </nav>
+    <!-- Main hero section-->
+    <section class="container" id="home">
+        <div class="hero is-fullheight-with-navbar">
+           
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <p class="title">OffGrid</p>
+                    <p class="subtitle is-size-2">The Dry World is coming soon!</p>
+                    <button class="button is-responsive myBtn is-large">Buy Here!</button>
+                </div>
+            </div>
+
+            <div class="hero-footer light has-text-centered is-outlined">
+                <p id="phrase">Right, here we are. So that's the thing: hug the mushroom and squeeze the rope tight. That's it, your job is done. The other guy will collect the white oil from the head of the mushroom. Trust me, you got the easy part...”</p>
+                
+            </div>
+        </div>
+       
+    </section>
+    <!-- games -->
+   
+    <section class="section" id="games">
+        <div class="columns">
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="img/CoverBig2.png" alt="Cover">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content has-text-centered">
+                            <p>Adventure into a post apocalictic world, filled of dangers and abominations!</p>
+                            <p>How long will you survive?</p>
+                            <a href="dryWorld.html" class="button myBtn is-medium">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- About us section  -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-image has-text-centered">
+                            <img src="img/placeholder.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="title dark">Alfio Rosario Di Mauro</p>
+                            <p class="subtitle is-3">Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="card">
+                         <div class="card-image has-text-centered">
+                            <img src="img/placeholder.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="title dark">Antonio Di Mauro</p>
+                            <p class="subtitle is-3">Programmer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-image has-text-centered">
+                            <img src="img/placeholder.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="title dark"> Di Mauro Alfio Rosario</p>
+                            <p class="subtitle is-3">Composer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-3">
+                    <div class="card">
+                         <div class="card-image has-text-centered">
+                            <img src="img/placeholder.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="title dark"> Di Mauro Antonio</p>
+                            <p class="subtitle is-3">Artist</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Brought to you with <span class="icon"><img  src="img/heartIcon.png" alt=""></span>  </p>
+            <p>All Rights reserved.2022.</p> 
+            <div class="icon is-128x128 ">
+                <img src="img/OffGridLogo.svg" alt="OffGrid logo" >
+            </div>
+               
+        </div>
+        
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
